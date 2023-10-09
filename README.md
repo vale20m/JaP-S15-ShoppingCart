@@ -5,8 +5,10 @@ Propuesta:
 La empresa "Barraca Ladrillos SRL" solicita al equipo de Jóvenes a Programar un software para control de stock de mercaderías y un carrito. Necesitan que el software tenga las siguientes funcionalidades:
 
 - Consumir de un API una lista de productos, mínimo deberán poseer los campos: identificación (debe ser único), nombre, descripción, cantidad en stock, costo asociado al producto (en pesos). Pueden inventar un JSON, minimo 20 productos.
+  
+- Añadir al carrito. Se debe poder elegir/seleccionar los productos que deseo comprar a un carrito.
 
-- Carrito con costo del total de la compra: Si paga en efectivo hay 10% de descuento. Si paga con
+- El carrito deberá mostrar en todo momento el costo del total de la compra: Si paga en efectivo hay 10% de descuento. Si paga con
 crédito hay un 7% de aumento. Con débito se mantiene el precio.
 
 - Los datos ingresados deben ser consistentes (si se genera un movimiento de
